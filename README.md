@@ -5,11 +5,11 @@ We used the results as a baseline for our own depth estimation method, M4Depth.
 
 This repository provides all the source code that was used to generate the baseline which is presented in the following paper:
 
-> **M4Depth: Monocular depth estimation for autonomous vehicles in unseen environments**
+> **Parallax Inference for Robust Temporal Monocular Depth Estimation in Unstructured Environments**
 >
 > [Michaël Fonder](https://www.uliege.be/cms/c_9054334/fr/repertoire?uid=u225873), [Damien Ernst](https://www.uliege.be/cms/c_9054334/fr/repertoire?uid=u030242) and [Marc Van Droogenbroeck](https://www.uliege.be/cms/c_9054334/fr/repertoire?uid=u182591) 
 > 
-> [arXiv pdf](https://arxiv.org/pdf/2105.09847.pdf)
+> [PDF file](https://www.mdpi.com/1424-8220/22/23/9374/pdf), [Sensor website](https://www.mdpi.com/1424-8220/22/23/9374)
 
 ## Overview
 
@@ -50,12 +50,17 @@ We did not test our code for other applications. So some further adaptations may
 If you use our work in your research, please consider citing the related paper (in addition to the methods and the datasets you use):
 
 ```
-@article{Fonder2021M4Depth,
-  title     = {M4Depth: Monocular depth estimation for autonomous vehicles in unseen environments},
+@article{Fonder2022Parallax,
+  title     = {Parallax Inference for Robust Temporal Monocular Depth Estimation in Unstructured Environments},
   author    = {Fonder, Michael and Ernst, Damien and Van Droogenbroeck, Marc},
-  booktitle = {arXiv},
-  month     = {May},
-  year      = {2021}
+  journal   = {Sensors},
+  volume    = {22},
+  number    = {23},
+  pages     = {1-22},
+  month     = {November},
+  year      = {2022},
+  doi       = {10.3390/s22239374}
+  url       = {https://doi.org/10.3390/s22239374}
 }
 ```
 
